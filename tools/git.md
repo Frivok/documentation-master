@@ -82,7 +82,7 @@ git tag
 ### Git branch(Create a maintened version of a project)
 
 ```bash
-git branch
+git branchh
 ```
 
 ### Git remote (Used to connect your repository to github)

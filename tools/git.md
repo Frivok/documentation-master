@@ -84,3 +84,9 @@ git tag
 ```bash
 git branch
 ```
+
+### Git remote (Used to connect your repository to github)
+
+```bash
+git remote add [origin, main, etc] [https://github.com/myproject]
+```

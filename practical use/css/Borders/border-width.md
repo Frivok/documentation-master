@@ -1,0 +1,59 @@
+# Table of Contents
+- [Table of Contents](#table-of-contents)
+- [CSS Border Width](#css-border-width)
+- [Specific Side Widths](#specific-side-widths)
+
+# CSS Border Width
+
+```bash
+The border-width property specifies the width of the four borders.
+
+The width can be set as a specific size (in px, pt, cm, em, etc) or by using one of the three pre-defined values: thin, medium, or thick:
+
+Example
+
+Demonstration of the different border widths:
+
+p.one {
+  border-style: solid;
+  border-width: 5px;
+}
+
+p.two {
+  border-style: solid;
+  border-width: medium;
+}
+
+p.three {
+  border-style: dotted;
+  border-width: 2px;
+}
+
+p.four {
+  border-style: dotted;
+  border-width: thick;
+}
+```
+
+# Specific Side Widths
+
+```bash
+The border-width property can have from one to four values (for the top border, right border, bottom border, and the left border):
+
+Example
+
+p.one {
+  border-style: solid;
+  border-width: 5px 20px; /* 5px top and bottom, 20px on the sides */
+}
+
+p.two {
+  border-style: solid;
+  border-width: 20px 5px; /* 20px top and bottom, 5px on the sides */
+}
+
+p.three {
+  border-style: solid;
+  border-width: 25px 10px 4px 35px; /* 25px top, 10px right, 4px bottom and 35px left */
+}
+```

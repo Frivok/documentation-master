@@ -1,0 +1,55 @@
+# Table of Contents
+- [Table of Contents](#table-of-contents)
+- [Text Shadow](#text-shadow)
+- [All CSS Text Properties](#all-css-text-properties)
+
+# Text Shadow
+
+```bash
+The text-shadow property adds shadow to text.
+
+In its simplest use, you only specify the horizontal shadow (2px) and the vertical shadow (2px):
+
+Example
+
+h1 {
+  text-shadow: 2px 2px;
+}
+
+Next, add a color (red) to the shadow:
+
+Example
+
+h1 {
+  text-shadow: 2px 2px red;
+}
+
+Then, add a blur effect (5px) to the shadow:
+
+Example
+
+h1 {
+  text-shadow: 2px 2px 5px red;
+}
+```
+
+# All CSS Text Properties
+
+```bash
+Property 	Description
+
+color 	Sets the color of text
+direction 	Specifies the text direction/writing direction
+letter-spacing 	Increases or decreases the space between characters in a text
+line-height 	Sets the line height
+text-align 	Specifies the horizontal alignment of text
+text-decoration 	Specifies the decoration added to text
+text-indent 	Specifies the indentation of the first line in a text-block
+text-shadow 	Specifies the shadow effect added to text
+text-transform 	Controls the capitalization of text
+text-overflow 	Specifies how overflowed content that is not displayed should be signaled to the user
+unicode-bidi 	Used together with the direction property to set or return whether the text should be overridden to support multiple languages in the same document
+vertical-align 	Sets the vertical alignment of an element
+white-space 	Specifies how white-space inside an element is handled
+word-spacing 	Increases or decreases the space between words in a text
+```
